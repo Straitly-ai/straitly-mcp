@@ -1,0 +1,21 @@
+{
+  "name": "straitly-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Straitly: search 150+ LLM models, check live API pricing, and run chat completions via one OpenAI-compatible key.",
+  "type": "module",
+  "bin": {
+    "straitly-mcp": "./index.js"
+  },
+  "main": "./index.js",
+  "files": ["index.js", "README.md", "LICENSE"],
+  "license": "MIT",
+  "homepage": "https://straitly.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Straitly-ai/straitly-mcp.git"
+  },
+  "keywords": ["mcp", "model-context-protocol", "straitly", "llm", "ai-gateway", "openai", "claude", "gemini"],
+  "engines": {
+    "node": ">=18"
+  }
+}
