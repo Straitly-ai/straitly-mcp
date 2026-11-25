@@ -1,6 +1,6 @@
 # Straitly MCP Server
 
-[![Straitly MCP server](https://glama.ai/mcp/servers/@Straitly-ai/straitly-mcp/badge.svg)](https://glama.ai/mcp/servers/@Straitly-ai/straitly-mcp)
+[![Straitly MCP server](https://glama.ai/mcp/servers/Straitly-ai/straitly-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Straitly-ai/straitly-mcp)
 
 Official Model Context Protocol (MCP) server for [Straitly](https://straitly.ai) — one OpenAI-compatible API gateway for 150+ models (Claude, GPT, Gemini, Grok, DeepSeek, Kimi, Qwen).
 
