@@ -28,6 +28,8 @@ Official Model Context Protocol (MCP) server for [Straitly](https://straitly.ai)
 
 Claude Code: `claude mcp add straitly -e STRAITLY_API_KEY=sk-... -- npx -y straitly-mcp`
 
+Docker: `docker build -t straitly-mcp . && docker run -i --rm -e STRAITLY_API_KEY straitly-mcp`
+
 `list_models` and `get_model` work with no API key. `chat_completion` requires `STRAITLY_API_KEY` from [straitly.ai](https://straitly.ai).
 
 ## Links
