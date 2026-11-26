@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Straitly-ai/straitly-mcp",
+  "title": "Straitly",
+  "description": "Search Straitly's live catalog of 150+ models and run chat completions with one API key.",
+  "repository": {
+    "url": "https://github.com/Straitly-ai/straitly-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://straitly.ai",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "straitly-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "STRAITLY_API_KEY",
+          "description": "Straitly API key. Needed only for chat_completion; list_models and get_model work without it.",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

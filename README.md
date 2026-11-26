@@ -16,8 +16,8 @@ Official Model Context Protocol (MCP) server for [Straitly](https://straitly.ai)
 {
   "mcpServers": {
     "straitly": {
-      "command": "node",
-      "args": ["/path/to/straitly-mcp/index.js"],
+      "command": "npx",
+      "args": ["-y", "straitly-mcp"],
       "env": {
         "STRAITLY_API_KEY": "sk-..."
       }
@@ -26,6 +26,8 @@ Official Model Context Protocol (MCP) server for [Straitly](https://straitly.ai)
 }
 ```
 
+Claude Code: `claude mcp add straitly -e STRAITLY_API_KEY=sk-... -- npx -y straitly-mcp`
+
 `list_models` and `get_model` work with no API key. `chat_completion` requires `STRAITLY_API_KEY` from [straitly.ai](https://straitly.ai).
 
 ## Links
@@ -33,7 +35,6 @@ Official Model Context Protocol (MCP) server for [Straitly](https://straitly.ai)
 - Website: https://straitly.ai
 - Quickstart: https://straitly.ai/docs/quickstart
 - Models: https://straitly.ai/models
-- Pricing: https://straitly.ai/pricing
 - SDKs: https://github.com/Straitly-ai/straitly
 
 ## License

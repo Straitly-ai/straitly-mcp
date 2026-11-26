@@ -1,6 +1,7 @@
 {
   "name": "straitly-mcp",
   "version": "0.1.0",
+  "mcpName": "io.github.Straitly-ai/straitly-mcp",
   "description": "MCP server for Straitly: search 150+ LLM models, check live API pricing, and run chat completions via one OpenAI-compatible key.",
   "type": "module",
   "bin": {
